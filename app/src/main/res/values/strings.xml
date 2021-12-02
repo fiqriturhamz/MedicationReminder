@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MedicationReminder</string>
+    <string name="add_medications">Tambah obat ke daftar Anda</string>
+    <string name="new_medication">Obat baru</string>
+    <string name="midnight">12:00AM</string>
+    <string name="schedule_dose">Jadwalkan Dosis</string>
 </resources>

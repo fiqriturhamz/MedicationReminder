@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/extra_times_template"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="10dp"
+    android:weightSum="10">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/schedule_dose_button"
+        android:layout_marginStart="16dp"
+        android:layout_weight="8.5"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:paddingVertical="15dp"
+        android:textSize="18sp"
+        android:text="@string/schedule_dose"
+        android:textColor="@color/purple_200"
+        app:strokeColor="@color/purple_500"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_weight="1.5"
+        android:id="@+id/delete_dose_button"
+        android:layout_marginEnd="16dp"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete"
+        android:layout_gravity="center" />
+</androidx.appcompat.widget.LinearLayoutCompat>
