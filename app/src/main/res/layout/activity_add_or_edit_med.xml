@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddMedActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:gravity="center_vertical"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="false">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="20dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/medication_name"
+                app:hintTextColor="@color/sub_green"
+                android:textColorHint="@color/sub_green"
+                app:boxStrokeColor="@color/sub_green"
+                app:boxBackgroundColor="@color/item_background"
+                app:hintTextAppearance="@style/TextLabel"
+                style="@style/Theme.TextInput"
+                android:theme="@style/Theme.TextInput">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/med_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/as_needed_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/taken_as_needed"
+                android:textColor="@color/sub_green"
+                app:autoSizeTextType="uniform"
+                android:textSize="20sp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="15dp"
+                android:checked="false"/>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/require_photo_proof_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/require_photo_proof"
+                android:textColor="@color/sub_green"
+                app:autoSizeTextType="uniform"
+                android:textSize="20sp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="15dp"
+                android:checked="false"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/repeat_schedule_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="15dp"
+                android:textSize="18sp"
+                android:text="@string/schedule_dose"
+                android:textColor="@color/sub_green"
+                app:strokeColor="@color/sub_green"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/schedule_buttons_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/extra_dose_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:paddingVertical="15dp"
+                android:textSize="18sp"
+                android:text="@string/add_another_dose"
+                app:icon="@drawable/add_box"
+                app:iconGravity="textStart"
+                android:textColor="@color/sub_green"
+                app:strokeColor="@color/sub_green"
+                app:iconTint="@color/sub_green"
+                android:visibility="visible"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/notification_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notifications_enabled"
+                android:textColor="@color/sub_green"
+                app:autoSizeTextType="uniform"
+                android:textSize="20sp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="15dp"
+                android:checked="true"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:hint="@string/prescription_number_hint"
+                app:hintTextColor="@color/sub_green"
+                android:textColorHint="@color/sub_green"
+                app:boxStrokeColor="@color/sub_green"
+                app:boxBackgroundColor="@color/item_background"
+                app:hintTextAppearance="@style/TextLabel"
+                style="@style/Theme.TextInput"
+                android:theme="@style/Theme.TextInput">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/rx_number_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:hint="@string/medication_type"
+                app:hintTextColor="@color/sub_green"
+                android:textColorHint="@color/sub_green"
+                app:endIconTint="@color/sub_green"
+                app:boxStrokeColor="@color/sub_green"
+                app:boxBackgroundColor="@color/item_background"
+                app:hintTextAppearance="@style/TextLabel"
+                style="@style/Theme.TextInput.ExposedDropdownMenu"
+                android:theme="@style/Theme.TextInput.ExposedDropdownMenu">
+
+                <AutoCompleteTextView
+                    android:id="@+id/med_type_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions"
+                    android:textSize="20sp"
+                    android:dropDownHeight="wrap_content"
+                    android:dropDownWidth="wrap_content"
+                    android:popupElevation="0dp"
+                    android:textColor="@color/white" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/take_with_food_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/take_with_food"
+                android:textColor="@color/sub_green"
+                app:autoSizeTextType="uniform"
+                android:textSize="20sp"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="15dp"
+                android:checked="false"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:hint="@string/dose_amount"
+                app:hintTextColor="@color/sub_green"
+                android:textColorHint="@color/sub_green"
+                app:boxStrokeColor="@color/sub_green"
+                app:boxBackgroundColor="@color/item_background"
+                app:hintTextAppearance="@style/TextLabel"
+                style="@style/Theme.TextInput"
+                android:theme="@style/Theme.TextInput">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/dose_amount_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:hint="@string/dose_unit"
+                app:hintTextColor="@color/sub_green"
+                android:textColorHint="@color/sub_green"
+                app:endIconTint="@color/sub_green"
+                app:boxStrokeColor="@color/sub_green"
+                app:boxBackgroundColor="@color/item_background"
+                app:hintTextAppearance="@style/TextLabel"
+                style="@style/Theme.TextInput.ExposedDropdownMenu"
+                android:theme="@style/Theme.TextInput.ExposedDropdownMenu">
+
+                <AutoCompleteTextView
+                    android:id="@+id/dose_unit_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions"
+                    android:textSize="20sp"
+                    android:dropDownHeight="wrap_content"
+                    android:dropDownWidth="wrap_content"
+                    android:popupElevation="0dp"
+                    android:textColor="@color/white" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:hint="@string/remaining_doses"
+                app:hintTextColor="@color/sub_green"
+                android:textColorHint="@color/sub_green"
+                app:boxStrokeColor="@color/sub_green"
+                app:boxBackgroundColor="@color/item_background"
+                app:hintTextAppearance="@style/TextLabel"
+                style="@style/Theme.TextInput"
+                android:theme="@style/Theme.TextInput">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/remaining_doses_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:hint="@string/pharmacy"
+                app:hintTextColor="@color/sub_green"
+                android:textColorHint="@color/sub_green"
+                app:boxStrokeColor="@color/sub_green"
+                app:boxBackgroundColor="@color/item_background"
+                app:hintTextAppearance="@style/TextLabel"
+                style="@style/Theme.TextInput"
+                android:theme="@style/Theme.TextInput">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pharmacy_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                android:hint="@string/description"
+                app:hintTextColor="@color/sub_green"
+                android:textColorHint="@color/sub_green"
+                app:boxStrokeColor="@color/sub_green"
+                app:boxBackgroundColor="@color/item_background"
+                app:hintTextAppearance="@style/TextLabel"
+                style="@style/Theme.TextInput"
+                android:theme="@style/Theme.TextInput">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/med_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:gravity="start|top"
+                    android:minLines="4"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
