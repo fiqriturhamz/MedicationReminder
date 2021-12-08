@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background">#FF101010</color>
     <color name="floating_action_button">#4CAF50</color>
+    <color name="green">#4CAF50</color>
+    <color name="sub_green">#2A942E</color>
 </resources>
