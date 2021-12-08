@@ -2,6 +2,10 @@
     <string name="app_name">MedicationReminder</string>
     <string name="add_medications">Tambah obat ke daftar Anda</string>
     <string name="new_medication">Obat baru</string>
+    <string name="medication_name">Nama obat</string>
+    <string name="description">Deskripsi</string>
+    <string name="taken_as_needed">Diambil sesuai kebutuhan</string>
+    <string name="add_another_dose">Tambahkan dosis lain</string>
     <string name="midnight">12:00AM</string>
     <string name="sample_description">Ini adalah contoh deskripsi obat. Ini memiliki banyak kalimat dan mencakup banyak baris.</string>
     <string name="schedule_dose">Jadwalkan Dosis</string>
@@ -16,9 +20,11 @@
     <string name="record_detail_hint">(Ketuk catatan untuk melihat detail)</string>
     <string name="time_since_dose_sample">Kira-kira 0 hari, 0 jam, dan 0 menit sejak dosis terakhir diminum</string>
     <string name="time_since_dose_template">Kira-kira %1$d hari, %2$d jam, and %3$d menit sejak dosis terakhir diminum</string>
+    <string name="require_photo_proof">Perlu bukti foto</string>
     <string name="previous_doses">Dosis sebelumnya:</string>
     <string name="i_just_took_it">Saya baru saja mengambilnya!</string>
     <string name="medication_active">Obat aktif</string>
+    <string name="medication_type">Jenis obat</string>
     <string name="notifications_enabled">Notifikasi diaktifkan</string>
     <string name="notifications_disabled">Notifikasi dimatikan</string>
     <string name="sample_type_label">Tipe: Tidak terdefinisi</string>
@@ -37,4 +43,9 @@
     <string name="remaining_doses_label_format">%1$d dosis tersisa</string>
     <string name="no_remaining_doses_message">Tidak ada dosis yang tersisa\nJika ini salah, perbarui dosis yang tersisa dengan mengubah obatnya</string>
     <string name="take_with_food">Ambil dengan makanan</string>
+    <string name="no_image_available">Tidak ada gambar tersedia</string>
+    <string name="view_the_project_on_github">Lihat di GitHub</string>
+    <string name="github_link" translatable="false">https://github.com/fiqriturhamz/MedicationReminder/tree/master</string>
+    <string name="app_description">Proyek aplikasi ini digunakan untuk memenuhi tugas Capstone yang ada di Studi Independen Dicoding dengan learning path Pengembang Aplikasi Android.\n\nMedication Reminder ini dibuat oleh Muhammad Fiqri Turqam dan Ilyam Faisal. Aplikasi android ini muncul dari pemikiran kami yang kadang kelupaan saat jadwalnya minum obat sehingga membuat obat menjadi tidak efektif dan bahkan bisa memperburuk kesehatan karena lupa. Maka dari itu harapan kami dengan adanya aplikasi ini bisa membantu orang banyak yang mengonsumsi obat-obatan supaya tidak lupa terhadap jadwal minum obat. </string>
+
 </resources>
