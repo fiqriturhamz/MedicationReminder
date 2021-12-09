@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:paddingVertical="10dp"
     android:paddingHorizontal="20dp">
@@ -10,7 +10,6 @@
         android:id="@+id/dose_taken_time_label"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/purple_200"
         autoSizeTextType="uniform"
         android:textSize="20sp"
         android:text="@string/midnight"/>
@@ -20,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         autoSizeTextType="uniform"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:text="@string/midnight"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
