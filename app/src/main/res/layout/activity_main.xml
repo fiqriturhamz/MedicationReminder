@@ -11,10 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="?android:actionBarSize"
         android:layout_alignParentTop="true"
-        android:gravity="center_vertical"
-        app:navigationIconTint="@color/white"
-        app:titleTextColor="@color/white"
-        app:contentInsetStart="0dp" />
+        app:contentInsetStart="0dp"
+        android:gravity="center_vertical"/>
 
     <ListView
         android:id="@+id/med_list_view"
