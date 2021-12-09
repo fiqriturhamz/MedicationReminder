@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="?android:actionBarSize"
         app:titleTextColor="@color/white"
-        app:navigationIconTint="@color/black"
+        app:navigationIconTint="@color/white"
         android:gravity="center_vertical"
         app:contentInsetStartWithNavigation="0dp" />
 
