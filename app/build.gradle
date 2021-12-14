@@ -15,7 +15,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "MedicationReminder"
+        applicationId "com.example.medicationreminder"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 24
