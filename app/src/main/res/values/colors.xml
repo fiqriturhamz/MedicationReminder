@@ -10,9 +10,9 @@
     <color name="background">#FF101010</color>
     <color name="github">#24292f</color>
     <color name="item_background">#BAFFBD</color>
-    <color name="floating_action_button">#4CAF50</color>
+    <color name="floating_action_button">#11875E</color>
     <color name="green">#4CAF50</color>
-    <color name="sub_green">#277B2A</color>
+    <color name="sub_green">#11875E</color>
     <color name="notification_bar">#FF2B00A7</color>
     <color name="notification_icon_color">#4CAF50</color>
 </resources>
