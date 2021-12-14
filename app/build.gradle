@@ -77,6 +77,5 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1'
 
     implementation 'com.github.sephiroth74:NumberSlidingPicker:v.1.1.1'
-    implementation 'net.steamcrafted:materialiconlib:1.1.5'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.1'
 }
