@@ -6,13 +6,15 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
+    <color name="grey">#202020</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background">#FF101010</color>
     <color name="github">#24292f</color>
-    <color name="item_background">#BAFFBD</color>
+    <color name="item_background">#ECECEC</color>
     <color name="floating_action_button">#11875E</color>
     <color name="green">#4CAF50</color>
     <color name="sub_green">#11875E</color>
     <color name="notification_bar">#FF2B00A7</color>
     <color name="notification_icon_color">#4CAF50</color>
+    <color name="red">#B72626</color>
 </resources>
