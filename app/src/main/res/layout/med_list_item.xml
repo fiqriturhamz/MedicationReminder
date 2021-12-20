@@ -12,7 +12,7 @@
         android:id="@+id/name_label"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/green"
+        android:textColor="@color/sub_green"
         autoSizeTextType="uniform"
         android:textSize="25sp"
         android:text="@string/sample_medicine"/>
@@ -21,6 +21,7 @@
         android:id="@+id/type_label"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/grey"
         autoSizeTextType="uniform"
         android:textSize="16sp"
         android:text="@string/sample_type_label"/>
@@ -34,12 +35,12 @@
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/green"
+            android:textColor="@color/sub_green"
             autoSizeTextType="uniform"
             android:textSize="18sp"
             android:text="@string/midnight"
-            android:gravity="left"
-            android:layout_gravity="left"/>
+            android:gravity="start"
+            android:layout_gravity="start"/>
 
         <com.google.android.material.textview.MaterialTextView
             android:layout_weight="1"
@@ -47,10 +48,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             autoSizeTextType="uniform"
+            android:textColor="@color/grey"
             android:textSize="18sp"
             android:text="@string/not_taken"
-            android:gravity="right"
-            android:layout_gravity="right"/>
+            android:gravity="end"
+            android:layout_gravity="end"/>
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
