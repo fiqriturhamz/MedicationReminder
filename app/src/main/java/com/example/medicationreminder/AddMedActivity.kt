@@ -98,7 +98,7 @@ class AddMedActivity : AppCompatActivity() {
 
         setSupportActionBar(toolbar)
         toolbar.background =
-            ColorDrawable(ResourcesCompat.getColor(resources, R.color.purple_700, null))
+            ColorDrawable(ResourcesCompat.getColor(resources, R.color.sub_green, null))
 
         lifecycleScope.launch(lifecycleDispatcher) {
             val medTypeListAdapter =
