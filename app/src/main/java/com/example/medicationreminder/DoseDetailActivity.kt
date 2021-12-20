@@ -45,7 +45,7 @@ class DoseDetailActivity : AppCompatActivity() {
         imageFolder = File(filesDir.path + File.separator + getString(R.string.image_path))
 
         setSupportActionBar(toolbar)
-        toolbar.background = ColorDrawable(ResourcesCompat.getColor(resources, R.color.purple_700, null))
+        toolbar.background = ColorDrawable(ResourcesCompat.getColor(resources, R.color.sub_green, null))
         supportActionBar?.setDisplayShowHomeEnabled(true)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         toolbar.setNavigationOnClickListener {
