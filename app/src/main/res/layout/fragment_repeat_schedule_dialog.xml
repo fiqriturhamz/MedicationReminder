@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:padding="20dp"
         android:text="@string/schedule_dose"
-        android:textColor="@color/black"
+        android:textColor="@color/grey"
         android:textSize="25sp" />
 
     <ScrollView
@@ -38,7 +38,7 @@
                 android:layout_marginVertical="8dp"
                 android:paddingVertical="15dp"
                 android:text="@string/select_a_time"
-                android:textColor="@color/green"
+                android:textColor="@color/sub_green"
                 android:textSize="20sp"
                 app:strokeColor="@color/sub_green" />
 
@@ -51,7 +51,7 @@
                 android:paddingHorizontal="30dp"
                 android:paddingVertical="15dp"
                 android:text="@string/select_a_start_date"
-                android:textColor="@color/green"
+                android:textColor="@color/sub_green"
                 android:textSize="20sp"
                 app:strokeColor="@color/sub_green" />
 
@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:paddingVertical="20dp"
                 android:text="@string/time_between_doses"
-                android:textColor="@color/green"
+                android:textColor="@color/sub_green"
                 android:textSize="22sp"
                 app:autoSizeTextType="uniform" />
 
@@ -90,7 +90,7 @@
                     android:paddingHorizontal="20dp"
                     android:paddingVertical="10dp"
                     android:text="@string/days"
-                    android:textColor="@color/white"
+                    android:textColor="@color/grey"
                     android:textSize="22sp"
                     app:autoSizeTextType="uniform" />
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -121,7 +121,7 @@
                     android:paddingHorizontal="20dp"
                     android:paddingVertical="10dp"
                     android:text="@string/weeks"
-                    android:textColor="@color/white"
+                    android:textColor="@color/grey"
                     android:textSize="22sp"
                     app:autoSizeTextType="uniform" />
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -152,7 +152,7 @@
                     android:paddingHorizontal="20dp"
                     android:paddingVertical="10dp"
                     android:text="@string/months"
-                    android:textColor="@color/white"
+                    android:textColor="@color/grey"
                     android:textSize="22sp"
                     app:autoSizeTextType="uniform" />
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -182,7 +182,7 @@
                     android:paddingHorizontal="20dp"
                     android:paddingVertical="10dp"
                     android:text="@string/years"
-                    android:textColor="@color/white"
+                    android:textColor="@color/grey"
                     android:textSize="22sp"
                     app:autoSizeTextType="uniform" />
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -209,7 +209,7 @@
             android:gravity="end"
             android:paddingHorizontal="5dp"
             android:text="@string/cancel"
-            android:textColor="@color/green"
+            android:textColor="@color/sub_green"
             android:textSize="20sp"
             app:strokeColor="@color/sub_green" />
 
@@ -224,7 +224,7 @@
             android:gravity="end"
             android:paddingHorizontal="5dp"
             android:text="@string/confirm"
-            android:textColor="@color/green"
+            android:textColor="@color/sub_green"
             android:textSize="20sp"
             app:strokeColor="@color/sub_green" />
     </androidx.appcompat.widget.LinearLayoutCompat>
