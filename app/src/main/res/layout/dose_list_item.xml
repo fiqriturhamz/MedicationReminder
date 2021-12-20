@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         autoSizeTextType="uniform"
-        android:textSize="20sp"
+        android:textSize="16sp"
+        android:textColor="@color/sub_green"
         android:text="@string/midnight"/>
 
     <com.google.android.material.textview.MaterialTextView
@@ -19,7 +20,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         autoSizeTextType="uniform"
-        android:textSize="20sp"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
         android:text="@string/midnight"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
