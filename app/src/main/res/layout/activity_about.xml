@@ -11,37 +11,93 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?android:actionBarSize"
-        app:titleTextColor="@color/white"
-        app:navigationIconTint="@color/white"
         android:gravity="center_vertical"
-        app:contentInsetStartWithNavigation="0dp" />
+        app:contentInsetStartWithNavigation="0dp"
+        app:navigationIconTint="@color/white"
+        app:titleTextColor="@color/white" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_item_photo"
+
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/fiqri"
+                    tools:src="@drawable/fiqri" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_item_photo2"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="2dp"
+                    android:src="@drawable/ilyam"
+                    tools:src="@drawable/ilyam" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="19sp"
+                    android:text="@string/muhammad_fiqri_turham"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="85sp"
+                    android:text="@string/ilyam_faisal"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/app_description_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/app_description"
+                android:textSize="18sp" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/view_github_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="15dp"
-                android:layout_marginTop="20dp"
+
                 android:paddingVertical="12dp"
                 android:text="@string/view_the_project_on_github"
                 android:textColor="@color/white"
-                app:backgroundTint="@color/github"/>
-
-            <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/app_description_view"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/app_description"
-                android:textSize="18sp"
-                android:padding="20dp"/>
+                app:backgroundTint="@color/github" />
         </LinearLayout>
     </ScrollView>
 </androidx.appcompat.widget.LinearLayoutCompat>

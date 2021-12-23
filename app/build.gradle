@@ -78,4 +78,7 @@ dependencies {
 
     implementation 'com.github.sephiroth74:NumberSlidingPicker:v.1.1.1'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.1'
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
 }
