@@ -47,7 +47,7 @@
     <string name="no_image_available">Tidak ada gambar tersedia</string>
     <string name="view_the_project_on_github">Lihat di GitHub</string>
     <string name="github_link" translatable="false">https://github.com/fiqriturhamz/MedicationReminder/tree/master</string>
-    <string name="app_description">Proyek aplikasi ini digunakan untuk memenuhi tugas Capstone yang ada di Studi Independen Dicoding dengan learning path Pengembang Aplikasi Android.\n\nMedication Reminder ini dibuat oleh Muhammad Fiqri Turham dan Ilyam Faisal. Aplikasi android ini muncul dari pemikiran kami yang kadang kelupaan saat jadwalnya minum obat sehingga membuat obat menjadi tidak efektif dan bahkan bisa memperburuk kesehatan karena lupa. Maka dari itu harapan kami dengan adanya aplikasi ini bisa membantu orang banyak yang mengonsumsi obat-obatan supaya tidak lupa terhadap jadwal minum obat. </string>
+    <string name="app_description">Proyek aplikasi ini digunakan untuk memenuhi tugas akhir capstone yang ada di Studi Independen Dicoding dengan learning path Pengembang Aplikasi Android.\n\nAplikasi android ini muncul dari pemikiran kami yang kadang kelupaan saat jadwalnya minum obat sehingga membuat obat menjadi tidak efektif dan bahkan bisa memperburuk kesehatan karena lupa. Maka dari itu harapan kami dengan adanya aplikasi ini bisa membantu orang banyak yang mengonsumsi obat-obatan supaya tidak lupa terhadap jadwal minum obat.</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="select_a_time">pilih waktu</string>
     <string name="time_picker_tag" translatable="false">time_picker</string>
@@ -121,6 +121,7 @@
     <string name="type_label_format">Tipe: %1$s</string>
     <string name="muhammad_fiqri_turham">Muhammad Fiqri Turham</string>
     <string name="ilyam_faisal">Ilyam Faisal</string>
+    <string name="explanation">Medication Reminder ini dibuat oleh:</string>
 
 
 </resources>
